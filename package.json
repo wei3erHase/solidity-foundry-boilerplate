@@ -19,7 +19,6 @@
     "lint:fix": "sort-package-json && forge fmt && yarn lint:sol --fix",
     "lint:natspec": "lintspec src -f variable",
     "lint:sol": "solhint 'src/**/*.sol' 'script/**/*.sol' 'test/**/*.sol'",
-    "prepare": "husky",
     "test": "forge test -vvv",
     "test:fuzz": "medusa fuzz",
     "test:integration": "forge test --match-contract Integration -vvv",
@@ -37,7 +36,6 @@
     "@commitlint/config-conventional": "19.2.2",
     "forge-std": "github:foundry-rs/forge-std#1.9.2",
     "halmos-cheatcodes": "github:a16z/halmos-cheatcodes#c0d8655",
-    "husky": ">=9",
     "lint-staged": ">=10",
     "solhint-community": "4.0.1",
     "sort-package-json": "2.10.0"
