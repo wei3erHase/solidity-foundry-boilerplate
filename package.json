@@ -41,5 +41,14 @@
     "lint-staged": ">=10",
     "solhint-community": "4.0.1",
     "sort-package-json": "2.10.0"
+  },
+  "main": "commitlint.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/defi-wonderland/solidity-foundry-boilerplate/issues"
   }
 }
